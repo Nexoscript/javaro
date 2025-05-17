@@ -16,7 +16,7 @@ public class Label extends Component {
 
     @Override
     public String render() {
-        return "<span id=\"" + getId() + "\">" + text + "</span>";
+        return "<label for=\"" + getId() + "\">" + text + "</label>";
     }
 
     public void setText(String text) {
